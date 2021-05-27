@@ -2,8 +2,6 @@
 
 int main()
 {
-    // numero matricula 19938465
-
     int vetorEntrada[8], vetorSaida[8], aux;
     
     for(int i = 0; i < 8; i++){
