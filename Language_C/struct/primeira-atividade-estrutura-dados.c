@@ -104,24 +104,26 @@ int main(){
 
     system("cls");
 
-    // vazia
     imprimir(0, f->inicio);
+    // vazia
 
     enfileira(10);
     imprimir(1, f->inicio);
     // 10
+
     enfileira(30);
     imprimir(2, f->inicio);
     // 10, 30
+
     enfileira(50);
     imprimir(3, f->inicio);
     // 10, 30, 50
+
     desenfileira();
     imprimir(4, f->inicio);
     // 30, 50
+
     enfileira(14);
     imprimir(5, f->inicio);
     // 30, 50, 14
-    
-   imprimir(6, f->inicio);
 }
